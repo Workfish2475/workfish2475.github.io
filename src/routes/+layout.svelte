@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { darkMode } from "./theme.js";
+
+	export const prerender = true;
    </script>
    
    <div class:dark={$darkMode}>
