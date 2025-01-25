@@ -7,7 +7,7 @@ const config = {
   kit: {
     adapter: adapter(),
     paths: {
-      base: process.env.BASE_PATH || '' // Add this to handle GitHub Pages base path
+      base: process.env.BASE_PATH || ''
     }
   }
 };
