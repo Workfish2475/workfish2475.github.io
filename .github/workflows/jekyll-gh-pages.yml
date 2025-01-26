@@ -29,13 +29,13 @@ jobs:
 
       - name: Build
         env:
-          BASE_PATH: '/workfish2475.github.io'
+          BASE_PATH: '/Workfish2475.github.io'
         run: npm run build
 
       - name: Upload build artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'dist'
+          path: 'build'
 
   deploy:
     needs: build_site
