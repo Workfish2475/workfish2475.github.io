@@ -29,13 +29,13 @@ jobs:
 
       - name: Build
         env:
-          BASE_PATH: '/Workfish2475.github.io'
+          BASE_PATH: '/${{ github.event.repository.name }}'
         run: npm run build
 
       - name: Upload build artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'build'
+          path: 'build/'
 
   deploy:
     needs: build_site
