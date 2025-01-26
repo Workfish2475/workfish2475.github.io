@@ -1,7 +1,6 @@
-import { sveltekit } from '@sveltejs/kit/vite';
-import { defineConfig } from 'vite';
+import { sveltekit } from "@sveltejs/kit/vite";
 
-export default defineConfig({
-	plugins: [sveltekit()],
-	base: '/workfish2475.github.io/' // Replace with your repository name
-});
+/** @type {import('vite').UserConfig} */
+export default {
+  plugins: [sveltekit()],
+};
