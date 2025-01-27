@@ -71,6 +71,11 @@
   strong {
     display: flex;
     align-items: center;
+    color: black;
+  }
+
+  .dark strong {
+    color: white;
   }
 
   button {
@@ -78,6 +83,7 @@
     border: none;
     padding: 4px;
     border-radius: 8px;
+    font-size: 1em;
   }
 
   button:hover {

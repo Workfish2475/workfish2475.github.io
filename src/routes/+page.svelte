@@ -4,6 +4,7 @@
   import ProjectItem from "./ProjectItem.svelte";
   import Skills from "./Skills.svelte";
   import Contact from "./Contact.svelte";
+  import MadeWith from "./MadeWith.svelte";
 
   import swiftIcon from "../../static/swift.svg";
   import mongoIcon from "../../static/mongodb-icon.svg";
@@ -34,24 +35,28 @@
   <div class="about-me">
     <Bio />
   </div>
+
+  <div>
+    <MadeWith />
+  </div>
 </div>
 
 <style>
   div {
     display: flex;
     flex-direction: column;
-	justify-content: center;
+    justify-content: center;
     align-items: center;
     gap: 40px;
-   
-	margin: 0;
-	padding: 0;
+
+    margin: 0;
+    padding: 0;
     height: auto;
-	width: auto;
+    width: auto;
   }
 
   .dark {
-   background-color: #050505;
-   color: white;
- }
+    background-color: #050505;
+    color: white;
+  }
 </style>

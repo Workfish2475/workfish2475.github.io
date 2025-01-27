@@ -1,25 +1,33 @@
 <script lang="ts">
-	import { darkMode } from "./theme.js";
-   </script>
-   
-   <div class:dark={$darkMode}>
-	<slot />
-   </div>
-   
-   <style>
-   :global(body) {
-	margin: 0;
-	padding: 0;
+  import { darkMode } from "./theme.js";
+</script>
 
-	transition: background-color 0.3s, color 0.3s;
-   }
-   
-   .dark {
-	background-color: black;
-	color: white;
-   }
-   
-   .dark :global(*) {
-	transition: background-color 0.3s, color 0.3s;
-   }
-   </style>
+<svelte:head>
+  <meta name="theme-color" content={$darkMode ? "black" : "#F7F7F7"} />
+</svelte:head>
+
+<div class:dark={$darkMode}>
+  <slot />
+</div>
+
+<style>
+  :global(body) {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    transition:
+      background-color 0.3s,
+      color 0.3s;
+  }
+
+  .dark {
+    background-color: black;
+    color: white;
+  }
+
+  .dark :global(*) {
+    transition:
+      background-color 0.3s,
+      color 0.3s;
+  }
+</style>

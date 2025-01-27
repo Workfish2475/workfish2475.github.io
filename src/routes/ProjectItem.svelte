@@ -155,6 +155,6 @@
   }
 
   .dark p {
-	color: lightgray;
+    color: lightgray;
   }
 </style>

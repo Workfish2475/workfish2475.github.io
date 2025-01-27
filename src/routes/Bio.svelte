@@ -1,16 +1,15 @@
 <script lang="ts">
-	import { darkMode } from "./theme.js";
+  import { darkMode } from "./theme.js";
 </script>
 
 <div class:dark={$darkMode}>
   <h6>About me</h6>
 
   <p>
-    I am a recent graduate looking for opportunities. Currently, I am very
-    interested in <strong>mobile app development</strong>
-    and the various technologies related to it. However, I am also familiar all the
-    technologies listed above for, non-mobile app development tasks or positions.
-    I am always happy to learn as much as I can.
+    I'm a recent graduate excited to take on new opportunities. I like keeping
+    busy with side projects and such. Right now, I'm building a project manager
+    app in <strong>Swift</strong> and becoming aquainted with
+    <strong>Svelte</strong> to learn more about web development.
   </p>
 </div>
 
@@ -37,10 +36,10 @@
 
   p {
     color: #555;
-    text-align: left;
-	font-size: large;
-	font-weight: medium;
-	line-height: 1.5em;
+    text-align: center;
+    font-size: large;
+    font-weight: medium;
+    line-height: 1.5em;
     font-family:
       system-ui,
       -apple-system,
@@ -56,7 +55,7 @@
   }
 
   .dark p {
-	color: lightgray;
+    color: lightgray;
   }
 
   strong {
@@ -64,14 +63,13 @@
   }
 
   .dark strong {
-	color: white;
+    color: white;
   }
 
   div {
-  padding: 10px;
-  width: 80%;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-  
+    padding: 10px;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 </style>

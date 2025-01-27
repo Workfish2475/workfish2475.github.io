@@ -8,6 +8,7 @@
   import mySQLIcon from "../../static/mysql-original.svg";
   import rIcon from "../../static/r-plain.svg";
   import cIcon from "../../static/c-plain.svg";
+
   import { darkMode } from "./theme.js";
 
   const skills = [
@@ -112,5 +113,11 @@
       "Open Sans",
       "Helvetica Neue",
       sans-serif;
+  }
+
+  @media (max-width: 500px) {
+    .skills-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 </style>

@@ -48,9 +48,9 @@
   }
 
   p {
-    color: #555;
-    font-size: 0.5em;
-    font-weight: 400;
+	color: #848482;
+    font-size: 1em;
+    font-weight: 600;
     font-family:
       system-ui,
       -apple-system,
@@ -66,10 +66,8 @@
   }
 
   .dark p {
-	color: lightgray;
+	color: gray;
   }
-
-
 
   div {
     display: flex;
@@ -92,6 +90,7 @@
   .location {
     display: flex;
     flex-direction: row;
+	margin-top: -10px;
     margin-bottom: 75px;
 
     height: auto;
@@ -111,5 +110,11 @@
 
   button:hover {
     background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 450px) {
+	h1 {
+		font-size: 2em;
+	}
   }
 </style>
