@@ -47,4 +47,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - run: ls -R build/
+      - run: ls -a
