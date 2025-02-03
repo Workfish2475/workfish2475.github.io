@@ -5,29 +5,31 @@
 </script>
 
 <h6>Projects</h6>
-{#each projects as project}
-  <div class:dark={$darkMode}>
-    <h3>{project.name}</h3>
+<div class="main-container">
+  {#each projects as project}
+    <div class:dark={$darkMode}>
+      <h3>{project.name}</h3>
 
-    <div class="langs" class:dark={$darkMode}>
-      {#each project.languages as language}
-        <img src={language} alt="icon" />
-      {/each}
+      <div class="langs" class:dark={$darkMode}>
+        {#each project.languages as language}
+          <img src={language} alt="icon" />
+        {/each}
+      </div>
+
+      <p>
+        {@html project.desc}
+      </p>
+
+      <div class="button-container" class:dark={$darkMode}>
+        <a href={project.gitUrl}>
+          <button>
+            <img src={gitIcon} alt="githib icon" class="gitButton" />
+          </button>
+        </a>
+      </div>
     </div>
-
-    <p>
-      {@html project.desc}
-    </p>
-
-    <div class="button-container" class:dark={$darkMode}>
-      <a href={project.gitUrl}>
-        <button>
-          <img src={gitIcon} alt="githib icon" class="gitButton" />
-        </button>
-      </a>
-    </div>
-  </div>
-{/each}
+  {/each}
+</div>
 
 <style>
   h6 {
@@ -57,7 +59,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
 
-    width: 80%;
+    width: 90%;
   }
 
   .dark {
@@ -95,7 +97,7 @@
 
     width: auto;
     display: flex;
-    justify-content: flex-end;
+
     align-items: flex-end;
   }
 
@@ -154,6 +156,40 @@
       sans-serif;
   }
 
+  .main-container {
+    background: none;
+    color: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .main-container:hover {
+    box-shadow: none;
+    background-color: none;
+  }
+
+  
+  @media screen and (min-width: 920px) {
+    .main-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    div {
+      height: 325px;
+    }
+  }
+  
   .dark p {
     color: lightgray;
   }
