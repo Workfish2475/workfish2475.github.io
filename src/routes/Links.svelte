@@ -23,11 +23,6 @@
       <strong> Linkedin </strong>
     </button>
   </a>
-
-  <button class="buttonItem" on:click={openResume}>
-    <img src={documentIcon} alt="Github icon" class="buttonImg" />
-    <strong> Resume </strong>
-  </button>
 </div>
 
 <style>
