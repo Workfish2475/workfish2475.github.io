@@ -14,7 +14,8 @@
   :global(body) {
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
+    background-color: white;
     transition:
       background-color 0.3s,
       color 0.3s;

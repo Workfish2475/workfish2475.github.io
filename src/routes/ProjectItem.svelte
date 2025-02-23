@@ -2,6 +2,7 @@
   import { darkMode } from "./theme.js";
   import { projects } from "./projectItem.js";
   import gitIcon from "../../static/github-mark.svg";
+  import linkIcon from "../../static/link.svg";
 </script>
 
 <h6>Projects</h6>
@@ -21,10 +22,12 @@
       </p>
 
       <div class="button-container" class:dark={$darkMode}>
+        <a href="/AppPage/{project.id}">
+          <img src={linkIcon} alt="link icon" class="gitButton">
+        </a>
+
         <a href={project.gitUrl}>
-          <button>
-            <img src={gitIcon} alt="githib icon" class="gitButton" />
-          </button>
+          <img src={gitIcon} alt="githib icon" class="gitButton"/>
         </a>
       </div>
     </div>
@@ -97,23 +100,15 @@
 
     width: auto;
     display: flex;
-
+    flex-direction: row;
+    justify-content: end;
+    gap: 5px;
     align-items: flex-end;
   }
 
   .button-container:hover {
     box-shadow: none;
     background-color: none;
-  }
-
-  button {
-    border: none;
-    background: none;
-    border-radius: 10px;
-  }
-
-  button:hover {
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
   }
 
   img {
