@@ -136,7 +136,7 @@
 
   p {
     color: #555;
-    font-size: medium;
+    font-size: 20px;
     font-family:
       system-ui,
       -apple-system,
@@ -170,7 +170,6 @@
     background-color: none;
   }
 
-  
   @media screen and (min-width: 920px) {
     .main-container {
       display: grid;
@@ -181,7 +180,7 @@
     }
 
     div {
-      height: 325px;
+      height: 400px;
     }
   }
   

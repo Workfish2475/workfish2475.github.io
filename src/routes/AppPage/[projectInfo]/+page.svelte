@@ -6,6 +6,8 @@
 </script>
 
 <div class="main-container">
+    <strong class="disclaimer">Note: This portion of the site is a work in progress!</strong>
+
     <div class="title">
         <h1>
             {data.name}
@@ -81,6 +83,14 @@
     img {
         height: 50px;
         width: 50px;
+    }
+
+    .disclaimer {
+        background-color: rgb(250, 83, 83);
+        border-radius: 10px;
+        border: 5px red solid;
+        color: white;
+        padding: 10px;
     }
 
     @media screen and (max-width: 750px) {
