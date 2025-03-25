@@ -22,9 +22,9 @@
       </p>
 
       <div class="button-container" class:dark={$darkMode}>
-        <!-- <a href="/AppPage/{project.id}">
+        <a href="/AppPage/{project.id}">
           <img src={linkIcon} alt="link icon" class="gitButton">
-        </a> -->
+        </a>
 
         <a href={project.gitUrl}>
           <img src={gitIcon} alt="githib icon" class="gitButton"/>

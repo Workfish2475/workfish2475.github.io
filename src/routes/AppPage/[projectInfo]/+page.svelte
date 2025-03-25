@@ -6,7 +6,7 @@
 </script>
 
 <div class="main-container">
-    <!-- <strong class="disclaimer">Note: This portion of the site is a work in progress!</strong> -->
+    <strong class="disclaimer">Note: This portion of the site is a work in progress!</strong>
 
     <div class="title">
         <h2>
