@@ -6,8 +6,8 @@
   import javaIcon from "../../static/java.svg";
   import kotlinIcon from "../../static/kotlin-icon.svg";
   import mySQLIcon from "../../static/mysql-original.svg";
-  import rIcon from "../../static/r-plain.svg";
   import cIcon from "../../static/c-plain.svg";
+  import goIcon from "../../static/go.svg";
 
   import { darkMode } from "./theme.js";
 
@@ -18,7 +18,7 @@
     { title: "Java", icon: javaIcon },
     { title: "MongoDB", icon: mongoIcon },
     { title: "MySQL", icon: mySQLIcon },
-    { title: "R", icon: rIcon },
+    { title: "GO", icon: goIcon },
     { title: "Kotlin", icon: kotlinIcon },
     { title: "Svelte", icon: svelteIcon },
   ];

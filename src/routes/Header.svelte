@@ -2,7 +2,6 @@
   import Links from "./Links.svelte";
   import moonIcon from "../../static/moon.svg";
   import sunIcon from "../../static/sun.svg";
-  import pinIcon from "../../static/pin.svg";
 
   import { toggleDarkMode } from "./theme.js";
   import { darkMode } from "./theme.js";
@@ -20,11 +19,6 @@
 
 <div>
   <h1>Alexander Rivera</h1>
-
-  <div class="location" class:dark={$darkMode}>
-    <img src={pinIcon} alt="pin icon" class="pin" />
-    <p>Austin, Texas</p>
-  </div>
 
   <Links />
 </div>
@@ -90,9 +84,8 @@
   .location {
     display: flex;
     flex-direction: row;
-	margin-top: -10px;
+    margin-top: -10px;
     margin-bottom: 75px;
-
     height: auto;
   }
 

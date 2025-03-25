@@ -1,6 +1,7 @@
 import swiftIcon from "../../static/swift.svg";
 import cIcon from "../../static/c-plain.svg";
 import pythonIcon from "../../static/python.svg";
+import goIcon from "../../static/go.svg";
 
 export const projects = [
   {
@@ -21,10 +22,10 @@ export const projects = [
   },
   {
     id: 3,
-    name: "Selenium Scraper",
+    name: "Web Scraper",
     desc: "Web scraping tool built with <strong> Selenium </strong> and <strong> Python</strong>, enabling automated data extraction from websites. Designed to efficiently gather and process online information through programmatic browsing and element selection techniques.",
     img: "imgPath",
     gitUrl: "https://github.com/Workfish2475/WebScraper",
-    languages: [pythonIcon],
+    languages: [pythonIcon, goIcon],
   },
 ];

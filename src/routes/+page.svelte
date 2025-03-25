@@ -6,16 +6,6 @@
   import Contact from "./Contact.svelte";
   import MadeWith from "./MadeWith.svelte";
 
-  import swiftIcon from "../../static/swift.svg";
-  import mongoIcon from "../../static/mongodb-icon.svg";
-  import svelteIcon from "../../static/svelte-icon.svg";
-  import pythonIcon from "../../static/python.svg";
-  import javaIcon from "../../static/java.svg";
-  import kotlinIcon from "../../static/kotlin-icon.svg";
-  import mySQLIcon from "../../static/mysql-original.svg";
-  import rIcon from "../../static/r-plain.svg";
-  import cIcon from "../../static/c-plain.svg";
-
   import { darkMode } from "./theme.js";
 </script>
 

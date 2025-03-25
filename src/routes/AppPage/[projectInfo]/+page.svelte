@@ -6,12 +6,12 @@
 </script>
 
 <div class="main-container">
-    <strong class="disclaimer">Note: This portion of the site is a work in progress!</strong>
+    <!-- <strong class="disclaimer">Note: This portion of the site is a work in progress!</strong> -->
 
     <div class="title">
-        <h1>
+        <h2>
             {data.name}
-        </h1>
+        </h2>
     </div>
 
     <div class="content">
@@ -19,16 +19,6 @@
             <p>
                 {@html data.desc}
             </p>
-        </div>
-        <div class="stats">
-            <strong>Info</strong>
-            {#each data.languages as langauge}
-                <img src={langauge} alt="project language">
-            {/each}
-
-            <a href="{data.gitUrl}"> 
-                <img src={gitIcon} alt="github icon">
-            </a>
         </div>
     </div>
 </div>
@@ -57,7 +47,6 @@
     .title {
         display: flex;
         flex-direction: column;
-        border-bottom: 2px solid black;
     }
 
     .content {
@@ -78,6 +67,7 @@
         width: 25%;
 
         background-color: #f4f4f4;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
     img {
@@ -97,6 +87,9 @@
         .stats {
             gap: 10px;
             width: 90%;
+
+            flex-direction: row;
+            padding: 10px;
         }
 
         .content {
@@ -109,6 +102,10 @@
         img {
             height: 25px;
             width: 25px;
+        }
+
+        .desc {
+            width: 100%;
         }
     }
 </style>

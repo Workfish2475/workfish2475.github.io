@@ -1,12 +1,8 @@
 <script lang="ts">
   import gitIcon from "../../static/github-mark.svg";
   import linkedinIcon from "../../static/bootstrap_linkedin.svg";
-  import documentIcon from "../../static/heroicons_document-arrow-down.svg";
   import { darkMode } from "./theme.js";
 
-  function openResume() {
-    window.open("https://www.google.com", "_blank");
-  }
 </script>
 
 <div class="link-container" class:dark={$darkMode}>
@@ -66,7 +62,8 @@
   strong {
     display: flex;
     align-items: center;
-    color: black;
+    color: #555555;
+    font-weight: 500;
   }
 
   .dark strong {
