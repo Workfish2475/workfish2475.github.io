@@ -2,8 +2,7 @@
   import { darkMode } from "./theme.js";
   import { projects } from "./projectItem.js";
   import gitIcon from "../../static/github-mark.svg";
-  import linkIcon from "../../static/link.svg";
-</script>
+  </script>
 
 <h6>Projects</h6>
 <div class="main-container">
@@ -22,10 +21,6 @@
       </p>
 
       <div class="button-container" class:dark={$darkMode}>
-        <a href="/AppPage/{project.id}">
-          <img src={linkIcon} alt="link icon" class="gitButton">
-        </a>
-
         <a href={project.gitUrl}>
           <img src={gitIcon} alt="githib icon" class="gitButton"/>
         </a>

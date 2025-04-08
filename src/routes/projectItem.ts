@@ -6,8 +6,8 @@ import goIcon from "../../static/go.svg";
 export const projects = [
   {
     id: 1,
-    name: "Fini - Project Manager",
-    desc: "Robust project management application that streamlines task tracking, and workflow optimization. Enables users to create, assign, and monitor projects with intuitive interface and efficient organizational tools.",
+    name: "Fini - PM",
+    desc: "A lightweight project tracker built in <strong> Swift </strong>.  It lets users manage projects with kanban boards, track progress visually with heatmaps, and organize tasks using a flexible tagging system.",
     img: "imgPath",
     gitUrl: "https://github.com/Workfish2475/Project-Manager",
     languages: [swiftIcon],
@@ -23,7 +23,7 @@ export const projects = [
   {
     id: 3,
     name: "Web Scraper",
-    desc: "Web scraping tool built with <strong> Selenium </strong> and <strong> Python</strong>, enabling automated data extraction from websites. Designed to efficiently gather and process online information through programmatic browsing and element selection techniques.",
+    desc: "Web scraping tool built with <strong>Python</strong> and <strong>Selenium</strong>, enabling automated data extraction from websites via programmatic browsing and element targeting. Scraped data is parsed into <strong>JSON</strong> and sent to a lightweight REST API developed in <strong>Go</strong>. The API handles incoming JSON payloads, performs validation, and stores structured data in a <strong>MySQL</strong> database for efficient querying and downstream processing.",
     img: "imgPath",
     gitUrl: "https://github.com/Workfish2475/WebScraper",
     languages: [pythonIcon, goIcon],

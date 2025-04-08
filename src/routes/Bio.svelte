@@ -6,9 +6,9 @@
   <h6>About me</h6>
 
   <p>
-    I'm a recent graduate exploring new opportunities. I enjoy working on side projects in my free time. Lately, 
-    I've been building a project manager app in <strong>Swift</strong>, getting familiar with <strong>Svelte</strong> 
-    to deepen my web development skills, and starting to learn <strong>Go</strong> as well.
+    I'm a recent graduate exploring new opportunities, with a strong interest in software development and continuous learning. 
+    In my free time, I work on side projects—including a project manager app built in <strong>Swift</strong>—and have been expanding 
+    my web development skills with <strong>Svelte</strong>. I'm also currently learning <strong>Go</strong> to broaden my backend development experience.
   </p>
 </div>
 
