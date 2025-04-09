@@ -7,7 +7,7 @@
 </script>
 
 <div class="container">
-  <h1>Home</h1>
+  <h3>Home</h3>
   <div class="themeButton" class:dark={$darkMode}>
     <button onclick={toggleDarkMode}>
       <img
@@ -20,7 +20,7 @@
 </div>
 
 <style>
-  h1 {
+  h3 {
     font-weight: bold;
     padding-left: 10px;
     font-family:

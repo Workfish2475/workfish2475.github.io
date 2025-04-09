@@ -3,7 +3,6 @@
   import Bio from "./Bio.svelte";
   import ProjectItem from "./ProjectItem.svelte";
   import Skills from "./Skills.svelte";
-  import MadeWith from "./MadeWith.svelte";
   import Navbar from "./Navbar.svelte";
 
   import { darkMode } from "./theme.js";
@@ -58,6 +57,6 @@
   }
 
   .header-section {
-    margin-top: 100px;
+    margin-top: 150px;
   }
 </style>
