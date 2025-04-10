@@ -23,7 +23,7 @@ export const projects = [
   {
     id: 3,
     name: "Web Scraper",
-    desc: "Web scraping tool built with <strong>Python</strong> and <strong>Selenium</strong>, enabling automated data extraction from websites via programmatic browsing and element targeting. Scraped data is parsed into <strong>JSON</strong> and sent to a lightweight REST API developed in <strong>Go</strong>. The API handles incoming JSON payloads, performs validation, and stores structured data in a <strong>MySQL</strong> database for efficient querying and downstream processing.",
+    desc: "Web scraping tool built with <strong>Python</strong> and <strong>Selenium</strong>, that performs automated data extraction from websites via element targeting. Scraped data is parsed into JSON and sent to lightweight REST APIs developed in <strong>Go</strong>. Currently, the API handles requests with payloads parsed from JSON or queried from a MySQL Database.",
     img: "imgPath",
     gitUrl: "https://github.com/Workfish2475/WebScraper",
     languages: [pythonIcon, goIcon],

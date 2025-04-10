@@ -165,7 +165,7 @@
     background-color: none;
   }
 
-  @media screen and (min-width: 920px) {
+  @media screen and (min-width: 1150px) {
     .main-container {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -175,7 +175,7 @@
     }
 
     div {
-      height: 400px;
+      height: 425px;
     }
   }
   
