@@ -10,7 +10,7 @@
 
 <div class:dark={$darkMode}>
   <div class="navbar">
-    <Navbar />
+    <Navbar displayName={"Home"} linkDestination={"https://workfish2475.github.io"}/>
   </div>
 
   <div class="header-section">

@@ -4,10 +4,18 @@
 
   import { toggleDarkMode } from "./theme.js";
   import { darkMode } from "./theme.js";
+
+  export let displayName
+  export let linkDestination
 </script>
 
-<div class="container">
-  <h3>Home</h3>
+<div class="container" class:dark={$darkMode}>
+  <a href={linkDestination}>
+    <h3>
+      {displayName}
+    </h3>
+  </a>
+  
   <div class="themeButton" class:dark={$darkMode}>
     <button onclick={toggleDarkMode}>
       <img
@@ -65,5 +73,14 @@
 
   button:hover {
     background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .dark a {
+    color: white;
   }
 </style>
