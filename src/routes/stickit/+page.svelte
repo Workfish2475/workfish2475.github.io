@@ -2,6 +2,8 @@
 	import Navbar from "../Navbar.svelte";
 	import AppHeader from "./AppHeader.svelte";
 	import RoadMap from "./RoadMap.svelte";
+  import Available from "./Available.svelte";
+  import FAQ from "./FAQ.svelte";
 
 	import { darkMode } from "./../theme.js";
 </script>
@@ -18,6 +20,14 @@
 	<div class="road-map">
 		<RoadMap></RoadMap>
 	</div>
+
+  <div class="available">
+    <Available></Available>
+  </div>
+
+  <div class="faq">
+    <FAQ></FAQ>
+  </div>
 </div>
 
 <style>

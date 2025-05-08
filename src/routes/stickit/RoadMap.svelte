@@ -2,7 +2,7 @@
 </script>
 
 <div class="container">
-  <h1>RoadMap</h1>
+  <h1>Features</h1>
 
   <div class="checkboxes">
     <div class="checkgroup">
@@ -12,12 +12,22 @@
 
     <div class="checkgroup">
       <input type="checkbox" id="sync" disabled={true} checked />
-      <label for="sync">Basic Markdownlike Syntax</label>
+      <label for="sync">Basic Markdown like Syntax</label>
     </div>
 
     <div class="checkgroup">
       <input type="checkbox" id="sync" disabled={true} checked />
       <label for="sync">Widgets</label>
+    </div>
+
+    <div class="checkgroup">
+      <input type="checkbox" id="sync" disabled={true} checked />
+      <label for="sync">Cross Platform</label>
+    </div>
+
+    <div class="checkgroup">
+      <input type="checkbox" id="sync" disabled={true} checked />
+      <label for="sync">Pinnable windows on MacOS</label>
     </div>
   </div>
 </div>
@@ -28,7 +38,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 70vh;
+    height: 45vh;
     width: 95vw;
     max-width: 800px;
 	gap: 10px;
