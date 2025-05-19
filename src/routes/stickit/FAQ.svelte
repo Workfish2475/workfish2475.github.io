@@ -36,7 +36,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 45vh;
+    height: auto;
     width: 95vw;
     max-width: 800px;
     gap: 10px;

@@ -22,7 +22,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 70vh;
+	height: 60vh;
 	width: 95vw;
 	max-width: 800px;
   }
