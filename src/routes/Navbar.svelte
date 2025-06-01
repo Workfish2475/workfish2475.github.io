@@ -66,7 +66,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
+
     backdrop-filter: blur(16px);
     padding: 0 10px;
   }

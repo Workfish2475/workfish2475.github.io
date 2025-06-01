@@ -13,11 +13,7 @@
 </div>
 
 <style>
-  .container {
-    /* background-color: rgb(235, 235, 235); */
-    /* backdrop-filter: blur(16px); */
-	/* box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); */
-	
+  .container {	
 	border-radius: 10px;
 	display: flex;
 	justify-content: center;
@@ -45,6 +41,7 @@
 	padding-right: 10px;
 	font-size: large;
 	font-weight: 400;
+	
 	font-family:
       system-ui,
       -apple-system,
