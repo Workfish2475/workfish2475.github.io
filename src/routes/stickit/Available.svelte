@@ -5,12 +5,8 @@
   <h1>Available On</h1>
 
   <a href="https://testflight.apple.com/join/B2YeXH4h">
-	Currently available on Testflight here
+    Currently available on Testflight here
   </a>
-
-  <p>
-	Releasing Soon
-  </p>
 </div>
 
 <style>
@@ -19,7 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-	height: 45vh;
+    height: 30vh;
     width: 95vw;
     max-width: 800px;
     gap: 10px;
@@ -41,12 +37,12 @@
   }
 
   a {
-	text-decoration: none;
-	color: black;
-	font-size: large;
-	font-weight: 400;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 400;
 
-	font-family:
+    font-family:
       system-ui,
       -apple-system,
       BlinkMacSystemFont,
@@ -59,16 +55,16 @@
       "Helvetica Neue",
       sans-serif;
 
-	  padding: 20px;
-	  border-radius: 10px;
-	  background-color: #f1d244;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f1d244;
   }
 
   p {
-	color: rgb(40, 48, 48);
-	font-size: small;
-	font-weight: 400;
-	font-family:
+    color: rgb(40, 48, 48);
+    font-size: small;
+    font-weight: 400;
+    font-family:
       system-ui,
       -apple-system,
       BlinkMacSystemFont,
@@ -81,8 +77,8 @@
       "Helvetica Neue",
       sans-serif;
 
-	  padding: 20px;
-	  border-radius: 10px;
-	  background-color: #f1d244;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f1d244;
   }
 </style>

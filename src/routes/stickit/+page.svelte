@@ -4,6 +4,7 @@
 	import RoadMap from "./RoadMap.svelte";
   import Available from "./Available.svelte";
   import FAQ from "./FAQ.svelte";
+  import ContactMe from "./ContactMe.svelte";
 
 	import { darkMode } from "./../theme.js";
 </script>
@@ -27,6 +28,10 @@
 
   <div class="faq">
     <FAQ></FAQ>
+  </div>
+
+  <div class="contact-me">
+     <ContactMe />
   </div>
 </div>
 
