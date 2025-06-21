@@ -6,16 +6,16 @@ import goIcon from "../../static/go.svg";
 export const projects = [
   {
     id: 1,
-    name: "Fini - PM",
-    desc: "A lightweight project tracker built in <strong> Swift </strong>.  It lets users manage projects with kanban boards, track progress visually with heatmaps, and organize tasks using a flexible tagging system.",
+    name: "StickIt",
+    desc: "A cross-platform sticky note app built in <strong>Swift</strong> for iOS, macOS, and iPadOS. Users can create, edit, and delete notes with support for <strong>CloudKit sync</strong>, <strong>SwiftData</strong> persistence, and interactive <strong>widgets</strong>. Designed with UIKit and platform-specific enhancements like drag-and-drop, Spotlight integration, and keyboard shortcuts.",
     img: "imgPath",
-    gitUrl: "https://github.com/Workfish2475/Project-Manager",
+    gitUrl: "https://github.com/Workfish2475/StickIt",
     languages: [swiftIcon],
   },
   {
     id: 2,
     name: "C-Minus Compiler",
-    desc: "Custom compiler project demonstrating advanced parsing and code translation techniques. Implements lexical analysis, syntax parsing, and code generation using modern compiler design principles.",
+    desc: "A full-featured compiler for the C-Minus language, built using <strong>C</strong>, <strong>Lex</strong>, and <strong>Yacc</strong>. Implements complete <strong>lexical analysis</strong>, <strong>syntax parsing</strong>, <strong>semantic checking</strong>, and <strong>MIPS assembly code generation</strong>. Includes custom error handling and symbol table management, showcasing strong low-level and systems programming skills.",
     img: "imgPath",
     gitUrl: "https://github.com/Workfish2475/Compiler",
     languages: [cIcon],
