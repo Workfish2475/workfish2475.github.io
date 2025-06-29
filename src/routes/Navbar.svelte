@@ -5,8 +5,8 @@
   import { toggleDarkMode } from "./theme.js";
   import { darkMode } from "./theme.js";
 
-  export let displayName
-  export let linkDestination
+  export let displayName;
+  export let linkDestination;
 </script>
 
 <div class="container" class:dark={$darkMode}>
@@ -15,7 +15,7 @@
       {displayName}
     </h3>
   </a>
-  
+
   <div class="themeButton" class:dark={$darkMode}>
     <button onclick={toggleDarkMode}>
       <img

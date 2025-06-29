@@ -19,7 +19,6 @@
     { title: "MongoDB", icon: mongoIcon },
     { title: "MySQL", icon: mySQLIcon },
     { title: "GO", icon: goIcon },
-    { title: "Kotlin", icon: kotlinIcon },
     { title: "Svelte", icon: svelteIcon },
   ];
 </script>

@@ -38,10 +38,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 45vh;
+    height: auto;
     width: 95vw;
     max-width: 800px;
-	gap: 10px;
+    gap: 10px;
   }
 
   .checkboxes {
@@ -74,7 +74,7 @@
   }
 
   input[type="checkbox"]:checked {
-	background-color: #f1d244;
+    background-color: #f1d244;
   }
 
   input[type="checkbox"]:checked::after {

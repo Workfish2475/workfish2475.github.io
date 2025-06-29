@@ -4,8 +4,7 @@
 
 <div class="container" class:dark={$darkMode}>
   <h1>Contact Me</h1>
-
-  <p>StickIt@RiveraPrivate.com</p>
+  <p>StickIt@riveraprivate.com</p>
 </div>
 
 <style>
@@ -15,7 +14,8 @@
     justify-content: center;
     align-items: center;
     width: 95vw;
-    height: 30vh;
+    height: 10vh;
+    margin-bottom: 50px;
   }
 
   h1 {
@@ -46,6 +46,8 @@
       "Open Sans",
       "Helvetica Neue",
       sans-serif;
+
+    margin-top: 0px;
     font-size: 1.2rem;
     color: #555;
     background-color: #f9f9f9;
@@ -73,7 +75,7 @@
   }
 
   .dark p:hover {
-	background-color: #1a1a1a;
-	color: #e0e0e0;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
   }
 </style>

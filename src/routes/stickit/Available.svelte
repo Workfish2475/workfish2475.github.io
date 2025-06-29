@@ -4,9 +4,7 @@
 <div class="container">
   <h1>Available On</h1>
 
-  <a href="https://testflight.apple.com/join/B2YeXH4h">
-    Currently available on Testflight here
-  </a>
+  <a href="https://testflight.apple.com/join/B2YeXH4h"> TestFlight </a>
 </div>
 
 <style>
@@ -15,7 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 30vh;
+    height: auto;
     width: 95vw;
     max-width: 800px;
     gap: 10px;
@@ -39,31 +37,9 @@
   a {
     text-decoration: none;
     color: black;
-    font-size: large;
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 600;
 
-    font-family:
-      system-ui,
-      -apple-system,
-      BlinkMacSystemFont,
-      "Segoe UI",
-      Roboto,
-      Oxygen,
-      Ubuntu,
-      Cantarell,
-      "Open Sans",
-      "Helvetica Neue",
-      sans-serif;
-
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #f1d244;
-  }
-
-  p {
-    color: rgb(40, 48, 48);
-    font-size: small;
-    font-weight: 400;
     font-family:
       system-ui,
       -apple-system,

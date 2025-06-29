@@ -2,7 +2,8 @@
   import { darkMode } from "./theme.js";
   import { projects } from "./projectItem.js";
   import gitIcon from "../../static/github-mark.svg";
-  </script>
+  import linkIcon from "../../static/link.svg";
+</script>
 
 <h6>Projects</h6>
 <div class="main-container">
@@ -21,8 +22,14 @@
       </p>
 
       <div class="button-container" class:dark={$darkMode}>
+        {#if project.pageUrl}
+          <a href={project.pageUrl}>
+            <img src={linkIcon} alt="link icon" class="gitButton" />
+          </a>
+        {/if}
+
         <a href={project.gitUrl}>
-          <img src={gitIcon} alt="githib icon" class="gitButton"/>
+          <img src={gitIcon} alt="github icon" class="gitButton" />
         </a>
       </div>
     </div>
@@ -97,8 +104,14 @@
     display: flex;
     flex-direction: row;
     justify-content: end;
-    gap: 5px;
+    gap: 10px;
     align-items: flex-end;
+  }
+
+  .dark .gitButton {
+    box-shadow: none;
+    background-color: none;
+    filter: invert(1);
   }
 
   .button-container:hover {
@@ -178,7 +191,7 @@
       height: 425px;
     }
   }
-  
+
   .dark p {
     color: lightgray;
   }

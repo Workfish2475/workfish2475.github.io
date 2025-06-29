@@ -37,7 +37,7 @@
     flex-direction: column;
     align-items: center;
     height: auto;
-    width: 95vw;
+    width: 90vw;
     max-width: 800px;
     gap: 10px;
   }

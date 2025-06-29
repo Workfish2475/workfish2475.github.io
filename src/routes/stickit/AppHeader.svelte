@@ -5,6 +5,11 @@
 
 <div class="container" class:dark={$darkMode}>
   <div class="content">
+    <div class="heading">
+      <h1>StickIt</h1>
+      <strong>Sticky Note App</strong>
+    </div>
+
     <img src={appIcon} alt="demo" />
     <p>
       StickIt is a sticky note app for iOS, iPadOS, and macOS that lets users
@@ -21,7 +26,7 @@
     justify-content: center;
     align-items: center;
     height: 60vh;
-    width: 95vw;
+    width: 90vw;
     max-width: 800px;
   }
 
@@ -36,6 +41,37 @@
     justify-content: center;
     align-items: center;
     gap: 25px;
+  }
+
+  .heading {
+    text-align: center;
+    font-family:
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      Roboto,
+      Oxygen,
+      Ubuntu,
+      Cantarell,
+      "Open Sans",
+      "Helvetica Neue",
+      sans-serif;
+  }
+
+  .heading h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
+
+  .heading strong {
+    font-size: large;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: darkgrey;
   }
 
   p {

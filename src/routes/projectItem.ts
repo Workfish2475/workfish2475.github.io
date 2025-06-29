@@ -11,6 +11,7 @@ export const projects = [
     img: "imgPath",
     gitUrl: "https://github.com/Workfish2475/StickIt",
     languages: [swiftIcon],
+    pageUrl: "https://workfish2475.github.io/stickit",
   },
   {
     id: 2,
