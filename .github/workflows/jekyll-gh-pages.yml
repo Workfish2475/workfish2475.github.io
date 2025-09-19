@@ -43,8 +43,6 @@ jobs:
           name: github-pages
           path: build
 
-      - run: ls -a
-
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
